@@ -1,2 +1,3 @@
 # att_we
-word embedding via attention mechanism
+Word Embedding learning using attention mechanism
+
