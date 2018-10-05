@@ -247,38 +247,11 @@ def read_text8(words):
     return train_set, valid_set, len(word2idx), word2idx
 
 
-# def sth():
-#     text8_filePath = './attWE_dataset/text8.zip'
-#     tokens = load_text8(text8_filePath)
-#     train_words, valid_words, vocabSize, vocab = read_text8(tokens)
-#
-#     analogy_questions  = read_analogy('./attWE_dataset/questions-words.txt', vocab)
-#     h = analogy_questions[:, 0]
-#     print (h.shape)
-#
-# sth()
-
-# print (missed[0])
-# words = ['athens greece baghdad iraq']
-# w_ids = [vocab.get(w.strip()) for w in words]
 
 
-# import itertools
-#
-# x2 = list(itertools.islice(vocab.items(), 0, 4))
-#
-#
-# id = vocab.get('athens')
-# id2 = vocab['greece']
-# id3 = vocab['baghdad']
-# id4 = vocab['iraq']
-# print (id4)
 
 
-# train_data = read_data1('/home/nooshin/PycharmProjects_Datasets/attWE_dataset/ptb.train.txt')
-# print (len(train_data))
-# print (type(train_data))
-# print (train_data[0:3])
+
 
 
 
